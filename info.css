@@ -26,3 +26,9 @@ footer {
 footer a {
   color: #000;
 }
+
+.install {
+  -moz-transform:scale(0.75);
+  -webkit-transform:scale(0.75);
+  transform:scale(0.75);
+}

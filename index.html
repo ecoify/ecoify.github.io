@@ -6,6 +6,7 @@
   <link rel="shortcut icon" type="image/png" href="icon48.png">
   <link rel="stylesheet" type="text/css" href="./info.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/kamhpehhdnbccfopoemjkpahemojkiap">
 </head>
 
 <body>
@@ -35,7 +36,14 @@
       directly for you - while reducing your CO<sub>2</sub> emissions and
       also saving you time!
     </p>
-
+    <p>
+        <img id="install-button" onclick="chrome.webstore.install()" src='./chrome_webstore_badge.png' class="install" >
+        <script>
+          if (chrome.app.isInstalled) {
+            document.getElementById('install-button').style.display = 'none';
+          }
+        </script>
+    </p>
   </div>
   <footer class='footer'>
     <small>
