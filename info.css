@@ -23,8 +23,12 @@ footer {
   font-size: 60%;
 }
 
-footer a {
+a {
   color: #000;
+}
+
+a:hover {
+  color: #fff;
 }
 
 .install {
