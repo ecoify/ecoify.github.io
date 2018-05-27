@@ -7,6 +7,7 @@
   <link rel="stylesheet" type="text/css" href="./info.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/kamhpehhdnbccfopoemjkpahemojkiap">
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
 </head>
 
 <body>
@@ -37,12 +38,13 @@
       also saving you time!
     </p>
     <p>
-        <img id="install-button" onclick="chrome.webstore.install()" src='./chrome_webstore_badge.png' class="install" >
-        <script>
-          if (chrome.app.isInstalled) {
-            document.getElementById('install-button').style.display = 'none';
-          }
-        </script>
+        <img id="install-button" onclick="chrome.webstore.install()" style=" cursor: pointer;" src='./chrome_webstore_badge.png' class="install" >
+    </p>
+    <p>
+      Star uns on Github:
+    </p>
+    <p>
+      <a class="github-button" href="https://github.com/ecoify/chrome-extension" data-size="large" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
     </p>
   </div>
   <footer class='footer'>
