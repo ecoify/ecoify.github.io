@@ -35,7 +35,7 @@
       xhr.onload = function () {
         const carbon = JSON.parse(xhr.responseText).sum;
         if (xhr.readyState === 4 && xhr.status === 200) {
-          carbon_grams.innerHTML = 'Totally saved: ' + countToCarbon(carbon) + ' of CO<sub>2</sub>'
+          carbon_grams.innerHTML = 'All Ecoify users saved: ' + countToCarbon(carbon) + ' of CO<sub>2</sub>'
         }
       }
       xhr.send();
